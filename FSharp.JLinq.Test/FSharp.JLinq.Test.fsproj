@@ -1,0 +1,99 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<IsPackable>false</IsPackable>
+		<GenerateProgramFile>false</GenerateProgramFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="Equality.fs" />
+		<Compile Include="JValueTest.fs" />
+		<Compile Include="StringLiteralTest.fs" />
+		<Compile Include="JsonTokenTest.fs" />
+		<Compile Include="JsonParsingTableTest.fs" />
+		<Compile Include="JsonParseTreeTest.fs" />
+		<Compile Include="JsonTranslationTest.fs" />
+		<Compile Include="JsonDriverTest.fs" />
+		<Compile Include="JsonRenderTest.fs" />
+		<Compile Include="FallbackDeserializationTest.fs" />
+		<Compile Include="FallbackReaderTest.fs" />
+		<Compile Include="FallbackSerializationTest.fs" />
+		<Compile Include="FallbackWriterTest.fs" />
+		<Compile Include="DBNullConverterTest.fs" />
+		<Compile Include="NullableTest.fs" />
+		<Compile Include="ArrayTest.fs" />
+		<Compile Include="TupleTest.fs" />
+		<Compile Include="RecordTest.fs" />
+		<Compile Include="ListTest.fs" />
+		<Compile Include="SetTest.fs" />
+		<Compile Include="MapTest.fs" />
+		<Compile Include="OptionTest.fs" />
+		<Compile Include="UnionTest.fs" />
+		<Compile Include="ClassTest.fs" />
+		<Compile Include="DateTimeOffsetConverterTest.fs" />
+		<Compile Include="GuidTest.fs" />
+		<Compile Include="TimeSpanConverterTest.fs" />
+		<Compile Include="EnumTest.fs" />
+		<Compile Include="DemoTest.fs" />
+		<Compile Include="ApostropheTest.fs" />
+		<Compile Include="UrljsonToken.fs" />
+		<Compile Include="UrljsonDfaTest.fs" />
+		<Compile Include="UrljsonAnalyzerTest.fs" />
+		<Compile Include="UrljsonTranslationTest.fs" />
+		<Compile Include="UrljsonDriverTest.fs" />
+		
+		<Compile Include="UrljsonDBNullTest.fs" />
+		<Compile Include="UrljsonFallbackDeserializationTest.fs" />
+		<Compile Include="UrljsonFallbackSerializationTest.fs" />
+
+		<!--
+		
+		
+		<Compile Include="UrljsonArrayTest.fs" />
+		<Compile Include="UrljsonDateTimeOffsetTest.fs" />
+		<Compile Include="UrljsonEnumTest.fs" />
+		<Compile Include="UrljsonGuidTest.fs" />
+		<Compile Include="UrljsonListTest.fs" />
+		<Compile Include="UrljsonMapTest.fs" />
+		<Compile Include="UrljsonNullableTest.fs" />
+		<Compile Include="UrljsonOptionTest.fs" />
+		<Compile Include="UrljsonParseTreeTest.fs" />
+		<Compile Include="UrljsonParsingTableTest.fs" />
+		<Compile Include="UrljsonRecordTest.fs" />
+		<Compile Include="UrljsonSetTest.fs" />
+		<Compile Include="UrljsonTimeSpanTest.fs" />
+		<Compile Include="UrljsonTupleTest.fs" />
+		<Compile Include="UrljsonUnionTest.fs" />
+		
+		-->
+		<Compile Include="Program.fs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FSharp.Literals" Version="2.1.4" />
+		<PackageReference Include="FSharp.xUnit" Version="1.1.0" />
+		<PackageReference Include="FSharpCompiler.Lex" Version="1.0.6" />
+		<PackageReference Include="FSharpCompiler.Yacc" Version="1.0.4" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.1" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="xunit" Version="2.4.1" />
+		<PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="coverlet.collector" Version="3.0.3">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\FSharp.JLinq\FSharp.JLinq.fsproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Update="FSharp.Core" Version="5.0.1" />
+	</ItemGroup>
+
+</Project>

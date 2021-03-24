@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.JLinq", "FSharp.JLinq\FSharp.JLinq.fsproj", "{156CFD36-9CB1-4786-9EAC-64DEE1B66ADC}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.JLinq.Test", "FSharp.JLinq.Test\FSharp.JLinq.Test.fsproj", "{ACE3CA17-DF69-4ED3-8B25-E502C8A847B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{156CFD36-9CB1-4786-9EAC-64DEE1B66ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156CFD36-9CB1-4786-9EAC-64DEE1B66ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156CFD36-9CB1-4786-9EAC-64DEE1B66ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156CFD36-9CB1-4786-9EAC-64DEE1B66ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE3CA17-DF69-4ED3-8B25-E502C8A847B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE3CA17-DF69-4ED3-8B25-E502C8A847B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE3CA17-DF69-4ED3-8B25-E502C8A847B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE3CA17-DF69-4ED3-8B25-E502C8A847B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E6031B1-0FA7-429C-954D-FBFAD3F3FE7B}
+	EndGlobalSection
+EndGlobal
